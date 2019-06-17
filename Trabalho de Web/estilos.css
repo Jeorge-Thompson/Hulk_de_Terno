@@ -1,0 +1,44 @@
+body {
+  background-image: url(imgs/Poster.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+html, body {
+  height: 100%;
+}
+body{
+  text-align: center;
+}
+h1, h2, p, li, td{
+  color: white;
+}
+header{
+  border: 3px inset #8587ad80;
+  background-color: #8587ad80;
+}
+li{
+  display: inline-block;
+  padding: 20px 50px;
+}
+h1{
+  float: left;
+  padding-left: 20px;
+}
+ul{
+  text-align: right;
+  padding-right: 100px;
+}
+
+
+footer{
+    display: flex;
+    align-items: flex-end;
+    background-color: #3c3484f0;
+}
+#borda{
+  width:300px;
+  height:100px;
+  background-color:#666;
+  border-radius: 10px;
+}
