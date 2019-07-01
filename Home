@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <title>Hulk de Terno - Home</title>
+
+    <style media="screen">
+    .imagem_topo{
+      background-image: url(imgs/Poster.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 500px;
+    }
+    h2{
+      font-size: 3em;
+      padding-top: 200px;
+    }
+    .imagem_topo > p{
+      font-size: 1.2em;
+    }
+    body{
+      text-align: center;
+    background-image: linear-gradient(to right, purple , silver);
+
+    }
+    h1, h2, .imagem_topo > p{
+      color: gold;
+      text-shadow: 2px 2px black;
+    }
+    a{
+      color: gold;
+    }
+    header{
+      border: 3px inset #8587ad80;
+      background-color: #8587ad80;
+    }
+    li{
+      display: inline-block;
+      padding: 20px 50px;
+    }
+    h1{
+      float: left;
+      padding-left: 20px;
+    }
+    ul{
+      text-align: right;
+      padding-right: 100px;
+    }
+    footer{
+        display: flex;
+        align-items: flex-end;
+        background-color: #3c3484f0;
+    }
+    #borda{
+      width:300px;
+      height:100px;
+      background-color:#666;
+      border-radius: 10px;
+    }
+    p{
+      text-align: left;
+      width: 700px;
+      margin-left: 150px;
+    }
+    img{
+      width: 250px;
+    }
+    </style>
+
+  </head>
+  <body>
+    <header>
+      <h1>Hulk de Terno</h1>
+      <ul>
+        <li><a href="file:///C:/Users/Suel%C3%A2ndio/Desktop/Trabalho%20de%20Web/jgvbn.html">Resumo</a></li>
+        <li><a href="file:///C:/Users/Suel%C3%A2ndio/Desktop/Trabalho%20de%20Web/jjj.html">Referências</a></li>
+        <li><a href="file:///C:/Users/Suel%C3%A2ndio/Desktop/Trabalho%20de%20Web/khn.html">Ralançamento</a></li>
+      </ul>
+    </header>
+
+    <main>
+      <p>CUIDADO!!!</p>
+      <p>Caso você seja a única pessoa do universo que ainda não viu esse filme,
+      recomendo que não clique nesse botão.</p>
+      <p>Caso você já viu o filme click nesse botão sem nenhum recentimento</p>
+      <button>Spoilers</button>
+      <div class="imagem_topo">
+        <h2>Hulk de Terno</h2>
+        <p id="diferente">
+          Uma página MAROTA feitas por pessoas que adoram um filme e que não
+            querem falar de ovelhas ou de plantas carnivoras
+        </p>
+      </div>
+    </main>
+
+    <footer>
+      <table>
+        <tbody><tr>
+          <td><a href="file:///C:/Users/Suel%C3%A2ndio/Desktop/Trabalho%20de%20Web/Hulk%20de%20Terno.html">Hulk de Terno</a></td>
+        </tr>
+        <tr>
+          <td><a href="file:///C:/Users/Suel%C3%A2ndio/Desktop/Trabalho%20de%20Web/jgvbn.html">Resumo</a></td>
+        </tr>
+        <tr>
+          <td><a href="file:///C:/Users/Suel%C3%A2ndio/Desktop/Trabalho%20de%20Web/jjj.html">Referências</a></td>
+        </tr>
+        <tr>
+          <td><a href="file:///C:/Users/Suel%C3%A2ndio/Desktop/Trabalho%20de%20Web/khn.html">Ralançamento</a></td>
+        </tr>
+      </tbody></table>
+    </footer>
+
+
+
+</body></html>
